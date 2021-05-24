@@ -1,3 +1,7 @@
+h3, p, .main-nav a{
+    color: white;
+}
+
 #hero {
     background-image: url("../images/hero.jpg");
     height: 800px;
@@ -11,8 +15,29 @@
     float: right;
 }
 
-.game-bio h3, p{
+.game-bio h3 {
     text-align: center;
+}
+
+.game-bio p {
+    text-align: left;
+    padding-bottom: 25px;
+}
+
+.more-info {
+    position: absolute;
+    bottom: 0;
+    padding-left: 40%;
+}
+
+.game-bio, .trailer, .wtb {
+    background-color: black;
+    padding: 20px;
+}
+
+.tlou, .gow , .uncharted {
+    border-style: solid;
+    border-color: rgb(0, 255, 76);
 }
 
 .trailer-heading {
