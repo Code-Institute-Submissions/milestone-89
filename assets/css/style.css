@@ -6,3 +6,11 @@
     background-size:cover;
     background-position: center;
 }
+
+.main-nav {
+    float: right;
+}
+
+.game-bio h3, p{
+    text-align: center;
+}
