@@ -46,3 +46,7 @@ h3, p, .main-nav a{
 .wtb-heading {
     text-align: center;
 }
+
+div #map {
+    min-height: 360px;
+}
