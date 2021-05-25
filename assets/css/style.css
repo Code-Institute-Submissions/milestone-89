@@ -36,8 +36,7 @@ h3, p, .main-nav a{
 }
 
 .tlou, .gow , .uncharted {
-    border-style: solid;
-    border-color: rgb(0, 255, 76);
+    background-color: rgba(105, 105, 101, 0.507);
 }
 
 .trailer-heading {
