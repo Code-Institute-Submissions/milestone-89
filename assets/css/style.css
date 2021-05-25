@@ -71,11 +71,11 @@ iframe {
 }
 
 #gow-trailer {
-    background-image: url();
+    background-image: url(../images/gow-symbol.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 25%;
-    background-position: right;
+    background-position: left;
 }
 
 #uncharted-trailer {
