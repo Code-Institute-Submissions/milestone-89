@@ -11,6 +11,8 @@ h3, p, .main-nav a{
     background-position: center;
 }
 
+
+
 .main-nav {
     float: right;
 }
@@ -60,4 +62,27 @@ iframe {
     text-align: center;
 }
 
+#tlou-trailer {
+    background-image: url();
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 25%;
+    background-position:left;
+}
+
+#gow-trailer {
+    background-image: url();
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 25%;
+    background-position: right;
+}
+
+#uncharted-trailer {
+    background-image: url();
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 25%;
+    background-position:left;
+}
 
