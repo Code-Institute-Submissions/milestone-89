@@ -7,3 +7,5 @@ function initMap() {
         }
     });
 }
+
+var labels = "ABDEFGHIJKLMNOPQRSTUVWXYZ"
