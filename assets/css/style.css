@@ -54,12 +54,12 @@ div #map {
 }
 
 iframe {
-    min-height: 450px;
-    width: 50%;
+    min-height: 600px;
+    width: 75%;
 }
 
 .trailer-vid {
-    text-align: center;
+    text-align: right;
 }
 
 #tlou-trailer {
