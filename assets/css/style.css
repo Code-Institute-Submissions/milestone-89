@@ -66,7 +66,7 @@ p {
     border-color: rgb(102, 252, 241);
     color: rgb(197, 198, 199);
     padding: 10px;
-    
+    background-color: red;
 }
 
 #more-info a{
