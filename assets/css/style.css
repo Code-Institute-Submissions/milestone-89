@@ -111,14 +111,23 @@ iframe {
     width: 75%;
 }
 
-.trailer-vid {
-    text-align: right;
+@media (max-width: 900px) {
+    iframe {
+        width: 100%;
+    }
 }
+
+@media (min-width: 900px) {
+    .trailer-vid {
+        text-align: right;
+    }
+}    
+
+
 
 #tlou-trailer {
     background-image: url(../images/firefly.png);
     background-repeat: no-repeat;
-    background-position: center;
     background-size: 25%;
     background-position:left;
 }
@@ -126,7 +135,6 @@ iframe {
 #gow-trailer {
     background-image: url(../images/gow-symbol.png);
     background-repeat: no-repeat;
-    background-position: center;
     background-size: 25%;
     background-position: left;
 }
@@ -134,7 +142,6 @@ iframe {
 #uncharted-trailer {
     background-image: url(../images/uncharted-symbol.png);
     background-repeat: no-repeat;
-    background-position: center;
     background-size: 25%;
     background-position:left;
 }
