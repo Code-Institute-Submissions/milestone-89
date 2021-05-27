@@ -40,7 +40,11 @@ p {
     text-transform: uppercase;
 }
 
-
+@media (max-width: 1200px) {
+    .tlou-raiting, .uncharted-raiting {
+        display: none;
+    }
+}
 
 .main-nav {
     float: right;
