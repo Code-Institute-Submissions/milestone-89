@@ -16,14 +16,28 @@ p {
 }
 
 .layer {
-    height: 100%;
+    height: 800px;
     background-color: rgba(136, 124, 124, 0.527);
 }
 
-.layer h1 {
+.layer h1{
     text-align: center;
     text-transform: uppercase;
     font-size: 600%;
+}
+
+.layer h2{
+    color: rgb(197, 198, 199);
+    font-size: 700%;
+    text-align: center;
+    padding-top: 37%;
+}
+
+.layer p {
+    color: rgb(197, 198, 199);
+    font-size: 500%;
+    text-align: center;
+    text-transform: uppercase;
 }
 
 
