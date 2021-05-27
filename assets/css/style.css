@@ -1,4 +1,4 @@
-h3, .main-nav a{
+h1, h3, .main-nav a{
     color: rgb(102, 252, 241);
 }
 
@@ -13,6 +13,17 @@ p {
     background-repeat: no-repeat;
     background-size:cover;
     background-position: center;
+}
+
+.layer {
+    height: 100%;
+    background-color: rgba(136, 124, 124, 0.527);
+}
+
+.layer h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 600%;
 }
 
 
