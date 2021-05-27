@@ -1,4 +1,4 @@
-h1, h3, .main-nav a{
+h1, h3, .main-nav {
     color: rgb(102, 252, 241);
 }
 
@@ -64,9 +64,14 @@ p {
     bottom: 0;
     border-style: solid;
     border-color: rgb(102, 252, 241);
-    text-decoration: none;
     color: rgb(197, 198, 199);
     padding: 10px;
+    
+}
+
+#more-info a{
+    text-decoration: none;
+    color: rgb(197, 198, 199);
 }
 
 #more-info {

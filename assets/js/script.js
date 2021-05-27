@@ -64,4 +64,12 @@ function unchartedInfo() {
     }
 }
 
+let moreInfo = document.getElementById("more-info")
+
+function changeInfoButtonColor() {
+    moreInfo.style.backgroundColor = "blue";
+}
+
+moreInfo.addEventListener("mouseover", changeInfoButtonColor);
+
 
