@@ -27,18 +27,37 @@ h3, p, .main-nav a{
 }
 
 .more-info {
-    position: absolute;
+    position: absolute ;
     bottom: 0;
-    padding-left: 40%;
+    border-style: solid;
+    border-color: rgb(102, 252, 241);
+    text-decoration: none;
+}
+
+#more-info {
+    text-align: left;
+    
 }
 
 .game-bio, .trailer, .wtb {
-    background-color: black;
-    padding: 20px;
+    background-color: rgb(11, 12, 16);
 }
 
-.tlou, .gow , .uncharted {
-    background-color: rgba(105, 105, 101, 0.507);
+.game-bio {
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.tlou {
+    background-color: rgba(11, 12, 16, 0.384);
+}
+.gow {
+    background-color: rgba(11, 12, 16, 0.384);
+}
+.uncharted {
+    background-color: rgba(11, 12, 16, 0.384);
 }
 
 .trailer-heading {
@@ -85,4 +104,6 @@ iframe {
     background-size: 25%;
     background-position:left;
 }
+
+
 
