@@ -1,5 +1,9 @@
-h3, p, .main-nav a{
-    color: white;
+h3, .main-nav a{
+    color: rgb(102, 252, 241);
+}
+
+p {
+    color: rgb(197, 198, 199);
 }
 
 #hero {
@@ -23,7 +27,7 @@ h3, p, .main-nav a{
 
 .game-bio p {
     text-align: left;
-    padding-bottom: 25px;
+    padding-bottom: 40px;
 }
 
 .more-info {
@@ -32,11 +36,12 @@ h3, p, .main-nav a{
     border-style: solid;
     border-color: rgb(102, 252, 241);
     text-decoration: none;
+    color: rgb(197, 198, 199);
+    padding: 10px;
 }
 
 #more-info {
-    text-align: left;
-    
+    text-align: left;  
 }
 
 .game-bio, .trailer, .wtb {
