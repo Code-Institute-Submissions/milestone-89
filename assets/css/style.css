@@ -1,9 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap');
+
 h1, h3, .main-nav {
     color: rgb(102, 252, 241);
+    font-family: 'Odibee Sans';
 }
 
 p {
     color: rgb(197, 198, 199);
+    font-family: 'Odibee Sans';
+    font-size: x-large;
 }
 
 #hero {
@@ -90,6 +95,7 @@ p {
 #more-info a{
     text-decoration: none;
     color: rgb(197, 198, 199);
+    font-family: 'Odibee Sans'
 }
 
 #more-info {
