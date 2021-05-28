@@ -98,3 +98,29 @@ $(".uncharted-info").mouseleave(function(){
     $(".uncharted-info").css("color", "rgb(197, 198, 199)");
 });
 
+//The Last of Us raitings mouse actions
+$(".tlou-raiting").mouseenter(function(){
+    $(".tlou-raiting").css("font-size", "130%");
+});
+
+$(".tlou-raiting").mouseleave(function(){
+    $(".tlou-raiting").css("font-size", "100%");
+});
+
+//The Last of Us raitings mouse actions
+$(".gow-raiting").mouseenter(function(){
+    $(".gow-raiting").css("font-size", "130%");
+});
+
+$(".gow-raiting").mouseleave(function(){
+    $(".gow-raiting").css("font-size", "100%");
+});
+
+//The Last of Us raitings mouse actions
+$(".uncharted-raiting").mouseenter(function(){
+    $(".uncharted-raiting").css("font-size", "130%");
+});
+
+$(".uncharted-raiting").mouseleave(function(){
+    $(".uncharted-raiting").css("font-size", "100%");
+});
