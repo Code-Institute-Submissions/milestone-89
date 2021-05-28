@@ -1,3 +1,4 @@
+//Loads map
 function initMap() {
     var map = new google.maps.Map(document.getElementById("map"), {
         zoom: 6,
@@ -7,6 +8,7 @@ function initMap() {
         }
     });
 
+    //map marker placing
     var labels = "ABDEFGHIJKLMNOPQRSTUVWXYZ";
 var locations = [
     // Limerick locations

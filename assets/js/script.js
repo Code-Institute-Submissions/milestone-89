@@ -6,7 +6,7 @@ window.onload = function() {
     document.getElementById("uncharted-trailer").style.display="none";
     document.getElementById("wtb-map").style.display="none";
 }
-
+//thes load specific divs when link is clicked
 function tlouInfo() {
     let x = document.getElementById("tlou-trailer");
     let y = document.getElementById("wtb-map");
@@ -63,6 +63,7 @@ function unchartedInfo() {
         t.style.display = "none";
     }
 }
+
 //The Last of Us link mouse actions
 $(".tlou-info").mouseenter(function(){
     $(".tlou-info").css("background-color", "rgb(102, 252, 241)");
