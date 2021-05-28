@@ -64,12 +64,9 @@ function unchartedInfo() {
     }
 }
 
-let moreInfo = document.getElementsByTagName("a")
 
-function changeInfoButtonColor() {
-    this.style.backgroundColor = "blue";
-}
-
-moreInfo.addEventListener('mouseover', changeInfoButtonColor);
-
+$(".uncharted-info").mouseenter(function(){
+    $(".uncharted-info").css("background-color", "rgb(102, 252, 241)");
+    $(".uncharted-info").css("color", "rgb(11, 12, 16)");
+});
 

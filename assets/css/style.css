@@ -59,15 +59,33 @@ p {
     padding-bottom: 40px;
 }
 
-.more-info {
+.uncharted-info {
     position: absolute ;
     bottom: 0;
     border-style: solid;
     border-color: rgb(102, 252, 241);
     color: rgb(197, 198, 199);
     padding: 10px;
-    background-color: red;
 }
+
+.gow-info {
+    position: absolute ;
+    bottom: 0;
+    border-style: solid;
+    border-color: rgb(102, 252, 241);
+    color: rgb(197, 198, 199);
+    padding: 10px;
+}
+
+.tlou-info {
+    position: absolute ;
+    bottom: 0;
+    border-style: solid;
+    border-color: rgb(102, 252, 241);
+    color: rgb(197, 198, 199);
+    padding: 10px;
+}
+
 
 #more-info a{
     text-decoration: none;
