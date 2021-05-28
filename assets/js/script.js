@@ -63,10 +63,38 @@ function unchartedInfo() {
         t.style.display = "none";
     }
 }
+//The Last of Us link mouse actions
+$(".tlou-info").mouseenter(function(){
+    $(".tlou-info").css("background-color", "rgb(102, 252, 241)");
+    $(".tlou-info").css("color", "rgb(11, 12, 16)");
+});
+
+$(".tlou-info").mouseleave(function(){
+    $(".tlou-info").css("background-color", "rgb(11, 12, 16)");
+    $(".tlou-info").css("color", "rgb(197, 198, 199)");
+});
 
 
+//God of War link mouse actions
+$(".gow-info").mouseenter(function(){
+    $(".gow-info").css("background-color", "rgb(102, 252, 241)");
+    $(".gow-info").css("color", "rgb(11, 12, 16)");
+});
+
+$(".gow-info").mouseleave(function(){
+    $(".gow-info").css("background-color", "rgb(11, 12, 16)");
+    $(".gow-info").css("color", "rgb(197, 198, 199)");
+});
+
+
+//Uncharted link mouse actions
 $(".uncharted-info").mouseenter(function(){
     $(".uncharted-info").css("background-color", "rgb(102, 252, 241)");
     $(".uncharted-info").css("color", "rgb(11, 12, 16)");
+});
+
+$(".uncharted-info").mouseleave(function(){
+    $(".uncharted-info").css("background-color", "rgb(11, 12, 16)");
+    $(".uncharted-info").css("color", "rgb(197, 198, 199)");
 });
 
